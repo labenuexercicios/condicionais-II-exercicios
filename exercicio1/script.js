@@ -17,3 +17,5 @@ if (numeroDivisivel%2===0 && numeroDivisivel%3===0) {
 }else {
     console.log('Esse número não é dívisivel por 2 e por 3');
 }
+
+
