@@ -1,3 +1,4 @@
+
 // let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
 
 // if(nacionalidade === "brasileira"){
@@ -47,4 +48,6 @@ switch(nacionalidade) {
         break;
     case 'Colombina':
         console.log('Seja bem vinda! Ficamos felizes em saber que você é Colombiana');
+    default:
+        console.log('Infelizmente, sua nacionalidade não foi encontrada :/');
 }
