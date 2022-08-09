@@ -5,16 +5,16 @@
 
 // 1. Utilizando ifs aninhados
 
-const num = Number(prompt("Favor inserir um número para sabermos se é divisivel por 2 ou 3, obrigado."))
+let num = Number(prompt("Favor inserir um número para sabermos se é divisivel por 2 ou 3, obrigado."))
 
-if (num % 2 === 0) {
-    if (num % 3 === 0) {
-        console.log("O número divisivel.")
-    }
-}
-else {
-    console.log("O número não é divisivel.")
-}
+// if (num % 2 === 0) {
+//     if (num % 3 === 0) {
+//         console.log("O número divisivel.")
+//     }
+// }
+// else {
+//     console.log("O número não é divisivel.")
+// }
 
 
 
@@ -23,8 +23,11 @@ else {
 //     if(expressao && expressao){ //&& para E
 //     //expressao || expressao para OU     
 
-    
-    num === num%3 === 0 && num%2 === 0 ? console.log("O número é divisilvel") : console.log("O número não é divisivel")
 
-    num === Number(40) ? console.log("ACERTEI") : console.log("não foi dessa vez :(")
+if(num % 3 === 0 && num % 2 === 0){ 
+    console.log("O número é divisilvel")
+} else{
+    console.log("O número não é divisivel")
+}
+    
 
