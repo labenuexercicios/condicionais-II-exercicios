@@ -7,14 +7,14 @@
 
 const num = Number(prompt("Favor inserir um número para sabermos se é divisivel por 2 ou 3, obrigado."))
 
-// if (num % 2 === 0) {
-//     if (num % 3 === 0) {
-//         console.log("O número divisivel.")
-//     }
-// }
-// else {
-//     console.log("O número não é divisivel.")
-// }
+if (num % 2 === 0) {
+    if (num % 3 === 0) {
+        console.log("O número divisivel.")
+    }
+}
+else {
+    console.log("O número não é divisivel.")
+}
 
 
 
@@ -23,8 +23,8 @@ const num = Number(prompt("Favor inserir um número para sabermos se é divisive
 //     if(expressao && expressao){ //&& para E
 //     //expressao || expressao para OU     
 
+    
+    num === num%3 === 0 && num%2 === 0 ? console.log("O número é divisilvel") : console.log("O número não é divisivel")
 
-    numero === numero%3 === 0 && numero%2 === 0 ? console.log("O número é divisilvel") : console.log("O número não é divisivel")
-
-    numero === Number(40) ? console.log("UFA ACERTEI") : console.log("não foi dessa vez :(")
+    num === Number(40) ? console.log("ACERTEI") : console.log("não foi dessa vez :(")
 
