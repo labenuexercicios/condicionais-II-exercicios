@@ -18,3 +18,4 @@ if(idade >= 18){
 console.log(nome === "josé"? "Olá, José": "Ola,nome")
 
 console.log(idade>=18?"Pode tirar carteira de motorista":"Ainda nãopode tirar carteira de motorista")
+//

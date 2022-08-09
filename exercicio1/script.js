@@ -12,3 +12,4 @@ if(num % 2 ===0 || num % 3 ===0){
     console.log("seu numero é divisivel por 2 ou por 3")
 }
 
+//
