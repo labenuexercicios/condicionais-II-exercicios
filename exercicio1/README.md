@@ -6,8 +6,8 @@ Faça isso:
     
 1. Utilizando ifs aninhados
 ```jsx
-    if(expressao){
-        if(expressao){
+    if(numero%2==0){
+        if(numero%3==0){
 
         }
     }
@@ -19,3 +19,29 @@ Faça isso:
     
     }
 ```
+
+if (numero%2==0 && numero%3==0){
+
+    console.log (`O número ${numero} é divisível por 2 e por 3`);
+    (numero == 30) ? console.log ("Ufa acertei") : console.log ("Não foi dessa vez!");
+
+}switch(numero){
+        case 6:
+            console.log ();
+            break;
+        case 12:
+            console.log (`);
+            break;
+        case 18:
+            console.log ();
+            break;
+        case 24:
+            console.log ();
+            break;
+        case 30:
+            console.log (); 
+            break;
+
+    default: 
+    console.log ("O numero é menor que 6 ou mair que 30");
+}
