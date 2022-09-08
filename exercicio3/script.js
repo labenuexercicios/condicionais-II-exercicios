@@ -1,13 +1,8 @@
 //código a ser reescrito
 
-if(nome === "José"){
-	console.log("Oi, Zé!");
-} else {
-	console.log("Olá, "+nome);
-}
+let nome = (prompt("Qual é o seu nome?")).toLowerCase()
+let idade = (prompt("Qual é a sua idade?"))
 
-if(idade >= 18){
-	console.log("pode tirar carteira de motorista!");
-} else {
-	console.log("Ainda não pode tirar carteira de motorista");
-}
+console.log(nome === "josé" ? ("Oi, Zé!") : (`Oi, ${nome}`) )
+
+console.log(idade >=18 ? ("Você pode tirar a carteira de motorista!") : ("Você ainda não pode tirar a carteira de motorista."))
