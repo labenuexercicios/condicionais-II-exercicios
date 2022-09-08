@@ -21,7 +21,7 @@
 
 // > 💡 Lembre-se de prestar atenção às letras maiúsculas e minúsculas. 
 
-let nacionalidade = prompt('Qual sua nacionalidade ? (no feminino)').toUpperCase()
+// let nacionalidade = prompt('Qual sua nacionalidade ? (no feminino)').toUpperCase()
 
 // if(nacionalidade === 'BRASILEIRA'){
 //     console.log('Você é brasileiro')
@@ -35,6 +35,12 @@ let nacionalidade = prompt('Qual sua nacionalidade ? (no feminino)').toUpperCase
 //     console.log('Você é colombiana')
 // } else {
 //     console.log('NACIONALIDADE NÃO ENCONTRADA')
+
+
+
+
+
+let nacionalidade = prompt('Qual sua nacionalidade ? (no feminino)').toUpperCase()
 
     switch (nacionalidade) {
         case 'BRASILEIRA':
