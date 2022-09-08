@@ -1,13 +1,12 @@
 //código a ser reescrito
 
-if(nome === "José"){
-	console.log("Oi, Zé!");
-} else {
-	console.log("Olá, "+nome);
-}
+//Reescreva os códigos do arquivo script.js utilizando o if ternário.
 
-if(idade >= 18){
-	console.log("pode tirar carteira de motorista!");
-} else {
-	console.log("Ainda não pode tirar carteira de motorista");
-}
+// condicao ? expr1 : expr2
+
+let nome = prompt('digite seu nome: ')
+console.log(nome === 'josé' ? 'Seu nome é José' : 'Seu nome não é José ')
+
+
+let idade = prompt('qual sua idade?')
+console.log(idade >= 18 ? 'pode dirigir' : 'nao pode dirigir')
