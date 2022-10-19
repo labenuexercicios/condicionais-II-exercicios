@@ -1,3 +1,4 @@
+//Recrie o exercício 3 da aula anterior (A012) de condicionais I, utilizando switch-case.
 let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
 
 switch (nacionalidade){

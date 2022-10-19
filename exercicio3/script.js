@@ -5,6 +5,7 @@ let nome = prompt ("Qual seu nome?")
 // } else {
 // 	console.log("Olá, "+nome);
 // }
+//O código a cima pode ser escrito da seguinte forma:
 console.log (nome === "José" ? "Oi, Zé!" : "Olá, "+ nome)
 
 let idade = +prompt ("Qual sua idade?")
@@ -13,4 +14,5 @@ let idade = +prompt ("Qual sua idade?")
 // } else {
 // 	console.log("Ainda não pode tirar carteira de motorista");
 //}
+//O código a cima pode ser escrito da seguinte forma:
 console.log (idade >= 18 ? "pode tirar carteira de motorista!" : "Ainda não pode tirar carteira de motorista")
