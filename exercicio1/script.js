@@ -1,2 +1,2 @@
-const num = //seu numero aqui
+console.log("teste 1")
 
