@@ -11,3 +11,6 @@ if(idade >= 18){
 } else {
 	console.log("Ainda não pode tirar carteira de motorista");
 }
+
+
+console.log("teste 3")

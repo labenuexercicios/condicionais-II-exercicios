@@ -13,3 +13,5 @@ if(nacionalidade === "brasileira"){
 } else{
     console.log("nacionalidade não encontrada")
 }
+
+console.log("teste 2")
