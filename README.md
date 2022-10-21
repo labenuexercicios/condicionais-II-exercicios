@@ -1,4 +1,4 @@
-# A013 - Condicionais II
+# Condicionais II - Exercícios
 
 ### Setup do projeto no Git
 
