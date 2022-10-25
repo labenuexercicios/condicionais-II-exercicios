@@ -1,15 +1,31 @@
-let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
+let nacionalidade = prompt("Qual sua nacioncionalidade?").toLowerCase();
 
-if(nacionalidade === "brasileira"){
-    console.log("a pessoa é do Brasil!");
-} else if(nacionalidade === "argentina"){
-    console.log("a pessoa é da Argentina!");
-} else if(nacionalidade === "uruguaia"){
-    console.log("a pessoa é do Uruguai!");
-} else if(nacionalidade === "chilena"){
-    console.log("a pessoa é do Chile!");
-} else if(nacionalidade === "colombiana"){
-    console.log("a pessoa é da Colômbia!");
-} else{
-    console.log("nacionalidade não encontrada")
+/*
+if (nacionalidade == 'brasileira'||nacionalidade == 'brasileiro') {
+    console.log(`Você é ${nacionalidade}`);
+} else if (nacionalidade === 'uruguaia' || nacionalidade === 'uruguaio'){
+    console.log(`Você é ${nacionalidade}`);
+} else if (nacionalidade==='chilena' || nacionalidade === 'chileno'){
+    console.log (`Você é ${nacionalidade}`);
+} else if (nacionalidade === 'colombiana' || nacionalidade === 'colombiano'){
+    console.log (`Você é ${nacionalidade}`);
+}else{
+    alert("Nacionalidade não encontrada");
+} */
+
+switch (nacionalidade) {
+    case 'brasileira' || 'brasileiro':
+        console.log(`Você é ${nacionalidade}`);
+        break;
+    case 'uruguaia' || 'uruguaio':
+        console.log(`Você é ${nacionalidade}`);
+        break;
+    case 'chilena' || 'chileno':
+        console.log(`Você é ${nacionalidade}`);
+        break;
+    case 'colombiana' || 'colombiano':
+        console.log(`Você é ${nacionalidade}`);
+        break;
+    default:
+        alert("Nacionalidade não encontrada");
 }
