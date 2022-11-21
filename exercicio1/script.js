@@ -42,6 +42,6 @@ if (numDivisivel % 2 === 0 || numDivisivel % 3 === 0) {
     } else if (numDivisivel % 3 === 0) {
         console.log('o numero é divisivel por 3')
     }
-
+    
 }
 
