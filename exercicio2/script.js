@@ -1,17 +1,27 @@
-let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
-
-if(nacionalidade === "brasileira"){
-    console.log("a pessoa é do Brasil!");
-} else if(nacionalidade === "argentina"){
-    console.log("a pessoa é da Argentina!");
-} else if(nacionalidade === "uruguaia"){
-    console.log("a pessoa é do Uruguai!");
-} else if(nacionalidade === "chilena"){
-    console.log("a pessoa é do Chile!");
-} else if(nacionalidade === "colombiana"){
-    console.log("a pessoa é da Colômbia!");
-} else{
-    console.log("nacionalidade não encontrada")
+function verificanacionalidade(nacionalidade2){//Usando função
+    switch(nacionalidade2){
+        case "brasileiro":
+            console.log("Fala mano!")
+            break
+        
+        case "argentino":
+            console.log("Olá manito!")
+            break
+        
+        case "uruguaio":
+            console.log("Habla manito!")
+            break
+        case "chileno":
+            console.log("Habla comigo ermano!")
+            break
+        case "colombiano":
+            console.log("Hola loco!")
+            break
+        default:
+            console.log("Num é brasileiro, nem nada do resto")
+    }   
 }
 
-console.log("teste 2")
+
+let nacionalidade = prompt("Digite sua nacionalidade\nEx.: Cubano").toLowerCase()
+verificanacionalidade(nacionalidade)
