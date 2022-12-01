@@ -1,4 +1,5 @@
-//código a ser reescrito
+const nome = prompt("Qual o seu nome?");//código a ser reescrito
+const idade = +(prompt("Qual sua idade?"));
 
 if(nome === "José"){
 	console.log("Oi, Zé!");
@@ -13,4 +14,5 @@ if(idade >= 18){
 }
 
 
-console.log("teste 3")
+
+console.log(nome, idade)
