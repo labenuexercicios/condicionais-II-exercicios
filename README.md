@@ -33,7 +33,7 @@ Cada uma das pastas possui um arquivo .html, que está linkado ao arquivo .js qu
 
 ### O que você precisa saber e praticar desta aula?
 
-- [x] item 1 - múltiplas condicões
+- [ ] item 1 - múltiplas condicões
 - [ ] item 2 - switch-case
 - [ ] item 3 - if ternário
 
