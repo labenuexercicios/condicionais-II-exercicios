@@ -17,3 +17,4 @@ if (num2 % 2 === 0 || num2 % 3 === 0 ){
 } else {
     alert("O número não é divisivel por 2 nem por 3")
 }
+

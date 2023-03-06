@@ -14,13 +14,13 @@
       <summary>Esqueceu como se faz?</summary>
       <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Fclone-repo.png?alt=media&token=d8b3c101-c6d4-4371-b018-ae4edec7e34c" alt="Garanta que o repositório é seu-usuário/nome-do-repo e faça o clone"/>
    </details>
--  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome-a013>`.
+-  [ ] Crie uma nova branch: git checkout -b `<turma-nome-sobrenome-condicionais-II>`.
    <details>
       <summary>Entenda o comando `git checkout -b`</summary>
       <p>Na aula vocês aprenderam a criar uma branch (`git branch "nome-branch"`) e se mover até ela (`git checkout "nome-branch"`). Porém, o git permite utilizar contrações para realizar mais de ação com um único comando, que é o caso do (`git checkout -b "nome-branch"`), que cria e automaticamente se move para a branch recém criada.</p>
    </details>
--  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-a013>`. Lembre-se de fazer commits.
--  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome-a013>`.
+-  [ ] Implemente o projeto na branch `<turma-nome-sobrenome-condicionais-II>`. Lembre-se de fazer commits.
+-  [ ] Dê push nos commits: git push origin `<turma-nome-sobrenome-condicionais-II>`.
 
 **Siga os passos abaixo ao terminar seu projeto, para enviá-lo:**
 
@@ -33,7 +33,7 @@ Cada uma das pastas possui um arquivo .html, que está linkado ao arquivo .js qu
 
 ### O que você precisa saber e praticar desta aula?
 
-- [x] item 1 - múltiplas condicões
+- [ ] item 1 - múltiplas condicões
 - [ ] item 2 - switch-case
 - [ ] item 3 - if ternário
 
