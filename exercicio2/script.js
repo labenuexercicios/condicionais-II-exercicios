@@ -1,4 +1,8 @@
+
+let nacionalidade = prompt("digite aqui a nacionalidade!").toLowerCase();
+
 let nacionalidade = prompt("Digite aqui a nacionalidade").toLowerCase()
+
 
 if(nacionalidade === "brasileira"){
     console.log("a pessoa é do Brasil!")
@@ -12,4 +16,8 @@ if(nacionalidade === "brasileira"){
     console.log("a pessoa é da Colômbia!")
 } else{
     console.log("nacionalidade não encontrada")
+
+
+console.log("teste 2")
+
 }
