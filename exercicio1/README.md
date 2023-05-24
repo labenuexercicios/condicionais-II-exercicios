@@ -6,8 +6,16 @@ Faça isso:
     
 **a)** Utilizando ifs aninhados
 ```jsx
-    if(expressao){
-        if(expressao){
+    if (expressao) {
+       if (expressao) {
+
+       } else {
+        
+       }
+          
+    } else {
+    
+        if (expressao) {
 
         }
     }
