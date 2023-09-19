@@ -28,3 +28,6 @@ function verificarDivisao (numero){
 }
 verificarDivisao(numero)
 
+//talvez tenha feito pela metade
+
+
